@@ -20,7 +20,7 @@ return room_assignment
 end
 
 def printer(attendees)
-assign_rooms(attendees).each do |attendees|
+assign_rooms(attendees).each do |attendee|
 binding.pry
  end
  end
