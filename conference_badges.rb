@@ -26,4 +26,5 @@ assign_rooms(attendees).each do |attendee|
  batch_badge_creator(attendees).each do |attendee|
   puts attendee
  end
+ end
  
